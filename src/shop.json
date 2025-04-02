@@ -1,0 +1,101 @@
+{
+  "카드냥" : {
+    "team": "역삼",
+    "geolocation" : {
+      "lat": "37.496953",
+      "lng": "127.037735"
+    },
+    "openkakao": "https://open.kakao.com/o/gQse7tah",
+    "telephone": "02-568-3778",
+    "homepage": "https://cardnyang.com/",
+    "premium": "Y"
+  },
+  "카드팝" : {
+    "team": "인천",
+    "geolocation" : {
+      "lat": "37.493239",
+      "lng": "126.723935"
+    },
+    "openkakao": "",
+    "telephone": "010-2269-5813",
+    "homepage": "https://blog.naver.com/card_pop",
+    "premium": "Y"
+  },
+  "카드플래닛" : {
+    "team": "수원",
+    "geolocation" : {
+      "lat": "37.253734",
+      "lng": "127.079080"
+    },
+    "openkakao": "",
+    "telephone": "010-2269-5813",
+    "homepage": "https://twitter.com/cardplanet_kr",
+    "premium": "Y"
+  },
+  "용산" : {
+    "team": "",
+    "geolocation" : {
+      "lat": "37.529892",
+      "lng": "126.964753"
+    },
+    "openkakao": "",
+    "telephone": "",
+    "homepage": "",
+    "premium": "Y"
+  },
+  "카드스페이스" : {
+    "team": "원주",
+    "geolocation" : {
+      "lat": "37.334043",
+      "lng": "127.929194"
+    },
+    "openkakao": "",
+    "telephone": "",
+    "homepage": "",
+    "premium": "Y"
+  },
+  "카드홀릭": {
+    "team": "평택",
+    "geolocation" : {
+      "lat": "36.992927",
+      "lng" : "127.088408"
+    },
+    "openkakao": "",
+    "telephone": "010-2712-8884",
+    "homepage": "https://smartstore.naver.com/pyeongtaekpokemon",
+    "premium": "Y"
+  },
+  "화성스토어TCG": {
+    "team": "광주",
+    "geolocation" : {
+      "lat": "35.147160",
+      "lng" : "126.915163"
+    },
+    "openkakao": "",
+    "telephone": "",
+    "homepage": "",
+    "premium": "Y"
+  },
+  "TCG팩토리": {
+    "team": "울산",
+    "geolocation" : {
+      "lat": "35.562595",
+      "lng" : "129.333811"
+    },
+    "openkakao": "",
+    "telephone": "052-248-4083",
+    "homepage": "",
+    "premium": "Y"
+  },
+  "트레이너스쿨": {
+    "team": "대구",
+    "geolocation" : {
+      "lat": "35.841854",
+      "lng": "128.553021"
+    },
+    "openkakao": "",
+    "telephone": "",
+    "homepage": "https://smartstore.naver.com/trainer_school",
+    "premium": "Y"
+  }
+}
