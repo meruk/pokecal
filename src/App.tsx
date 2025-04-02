@@ -1,11 +1,10 @@
 import './App.css'
+import shopdb from './shop.json'
+import logo from './assets/pokecal_240x190.png'
 
 
 function App() {
-
-
-    // const CLIENT_ID = '668234981243-ubh87mkjm5gtsg43sa04qa6s8lj89jbs.apps.googleusercontent.com';
-    const API_KEY = 'AIzaSyAOJ8xkXXzVKHKic0Gi4RFtRQdJmsKzvbQ';
+    const API_KEY = '';
     const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
     const SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
     const CALENDAR_ID = 'f3ee2e0c6d16b5fb22c675428e22a22d50e7fe133a452c4b05daa31f2ccb29ca@group.calendar.google.com'
@@ -49,12 +48,15 @@ function App() {
             });
         });
     }
+    const nmap = new Map(Object.entries(shopdb))
+    console.log(nmap)
 
     loadClient()
 
   return (
     <>
         <header className="bg-gray-800 text-white text-center py-4">
+            <img src={logo} style={{position: 'absolute', top: '10px', left: '10px'}}/>
             <h1 className="text-xl font-semibold">이벤트 목록</h1>
         </header>
 
